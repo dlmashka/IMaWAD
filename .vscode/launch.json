@@ -1,0 +1,14 @@
+{
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open Untitled-1.html",
+            "file": "c:\\Users\\User\\OneDrive\\Документы\\3 курс 5 семестр\\Interactive Mobile and Web Application Development Вакансия 6\\assignments-all\\assignment-1#\\Untitled-1.html"
+        }
+    ]
+}
