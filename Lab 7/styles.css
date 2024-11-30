@@ -1,0 +1,139 @@
+body {
+    background: linear-gradient(to bottom, #1f1f1f, #3a3a3a);
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 700px;
+    background-color: #2a2a2a;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+#hero-description {
+    font-size: 1.25rem;
+    color: #d1d1d1;
+    margin-bottom: 20px;
+}
+
+#hero-avatar {
+    width: 50%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.progress {
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.hero-cooked {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #378f98;
+    color: white;
+    font-size: 1.125rem;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #145e43;
+}
+
+button.active-yes {
+    background-color: #00bfff;
+}
+
+button.active-no {
+    background-color: #ff4500;
+}
+
+.message-container {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.message {
+    display: none;
+}
+
+.message#yes-message {
+    color: #00bfff;
+}
+
+.message#no-message {
+    color: #ff4500;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#custom-alert {
+    position: fixed;
+    top:300px;
+    right: 50px;
+    width: 500px;
+    padding: 75px;
+    z-index: 1000;
+    display: none;
+    font-size: 2.15rem;
+    font-weight: 1000;
+}
+
+button {
+    margin: 1px;
+    font-size: 1.125rem;
+}
+
+#yes-button.active-yes {
+    background-color: rgb(21, 255, 0);
+    color: white;
+}
+
+#no-button.active-no {
+    background-color: red;
+    color: white;
+}
+#hero-name {
+    color: #ff6347; /* Цвет для названия героя (Tomato) */
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+#talents {
+    color: #ff8c00; /* Цвет для Talents (Dark Orange) */
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 15px;
+}
