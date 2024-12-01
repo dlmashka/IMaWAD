@@ -21,7 +21,7 @@ body {
 
 #hero-description {
     font-size: 1.25rem;
-    color: #d1d1d1;
+    color: #ff6347; 
     margin-bottom: 20px;
 }
 
@@ -42,7 +42,7 @@ body {
 }
 
 button {
-    background-color: #378f98;
+    background-color: #374798;
     color: white;
     font-size: 1.125rem;
     border: none;
@@ -82,11 +82,11 @@ button.active-no {
 }
 
 .message#yes-message {
-    color: #00bfff;
+    color: #00ff7f; 
 }
 
 .message#no-message {
-    color: #ff4500;
+    color: #ff6347; 
 }
 
 @keyframes fadeOut {
@@ -100,7 +100,7 @@ button.active-no {
 
 #custom-alert {
     position: fixed;
-    top:300px;
+    top: 300px;
     right: 50px;
     width: 500px;
     padding: 75px;
@@ -123,17 +123,4 @@ button {
 #no-button.active-no {
     background-color: red;
     color: white;
-}
-#hero-name {
-    color: #ff6347; /* Цвет для названия героя (Tomato) */
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 15px;
-}
-
-#talents {
-    color: #ff8c00; /* Цвет для Talents (Dark Orange) */
-    font-size: 1.25rem;
-    font-weight: 600;
-    margin-top: 15px;
 }
